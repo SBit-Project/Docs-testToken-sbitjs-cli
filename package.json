@@ -1,0 +1,11 @@
+{
+  "name": "mytoken-sbitjs",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "ora": "^1.3.0",
+    "sbitjs": "^0.0.1"
+  }
+}
