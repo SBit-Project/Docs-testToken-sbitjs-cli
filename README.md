@@ -5,7 +5,7 @@ Install dependencies
 ```
 yarn install
 ```
-## Running SBit
+## Running Sbit
 
 ```
 docker run -it --rm \
