@@ -3,11 +3,11 @@ const ora = require("ora")
 const parseArgs = require("minimist")
 
 const {
-  SBit,
+  Sbit,
 } = require("sbitjs")
 
 const repoData = require("./solar.json")
-const sbit = new SBit("http://sbit:test@localhost:22002", repoData)
+const sbit = new Sbit("http://sbit:test@localhost:22002", repoData)
 const myToken = sbit.contract("zeppelin-solidity/contracts/token/CappedToken.sol")
 
 async function totalSupply() {
